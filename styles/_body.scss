@@ -1,0 +1,82 @@
+
+.main{
+    display: inline-flex;
+    padding-inline: 6%;
+.main-pic{
+    img{
+    width: 40%;
+    height: 80%;
+    border-radius: 10%;
+    margin-top: 5%;
+    margin-left: 28%;
+}
+
+
+
+
+
+}
+
+.imgCarr{
+    display: inline-flex;
+    margin-top: 5%;
+    width: 10%;
+    height: 10%;
+}
+
+
+
+.main-texto{
+ width: 40%;
+ margin-right: 15%;
+ h3{
+     color:orange;
+     font-family: Barlow, sans-serif;
+ }
+ h2{
+    font-family: Barlow, sans-serif;
+    font-size: xx-large;
+ }
+ p{
+     font-size: large;
+     font-family: Barlow, sans-serif;
+ }
+ .prices{
+     display: inline-flex;
+    p{
+        padding-inline: 15%;
+
+    }
+    .discount{
+        color: orange;
+        background-color: lightgrey;
+    }
+ }
+ .buy{
+     display: flex;
+     height: 10%;
+     padding-inline: 2%;
+     .addToCart{
+        background-color: orange;
+        color: white;
+        margin-left: 10%;
+        border-radius: 10%;
+        
+    }
+    .adding{
+        color: orange;
+        border-radius: 10%;
+       width: 10%;
+    }
+    .adding-total{
+        display: flex;
+        padding-inline: 7%;
+        background-color: lightgray;
+       
+    }
+    
+ }
+
+}
+
+}
