@@ -111,3 +111,13 @@ function selectn4(){
     class1.classList.remove("img1")
 
 }
+
+function myFunction(){
+var x = document.getElementById("myLinks");
+if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+    
